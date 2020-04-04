@@ -9,7 +9,7 @@
 typedef long long ll;
 
 int random_flag = 0; //false
-void showInputs(ll *virtual_memory_pages, ll no_of_pages, ll no_of_frames);
+void showInput(ll *virtual_memory_pages, ll no_of_pages, ll no_of_frames);
 void drawLine();
 int findPageHit(ll *frame_list, ll no_of_frames, ll target)
 {
@@ -75,7 +75,7 @@ int main(int argc, const char **argv)
     return 0;
 }
 
-void showInputs(ll *virtual_memory_pages, ll no_of_pages, ll no_of_frames)
+void showInput(ll *virtual_memory_pages, ll no_of_pages, ll no_of_frames)
 {
     printf("You have entered the following data....");
     drawLine();
