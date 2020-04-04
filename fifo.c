@@ -1,7 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <stdio.h>
+
 
 #define debugi(x) printf("DEBUG : %d\n", x)
 #define FORN(i, n) for(__typeof(i) i = 0; i < n; i++)
